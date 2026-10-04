@@ -1,0 +1,76 @@
+supplier_code,company_name,country,city,zip,vat_number,bank_account,payment_terms,main_commodity
+SUP-0023,Cerroline GmbH,Germany,Cologne,50140,,DE19143015404868443180,"2% 14 days, net 30",Plastic housings
+SUP-0051,Terraseal  SAS,France,Lyon,69817,FR82397125906,FR6030500937412619391525504,"2% 14 days, net 30",Rubber seals
+SUP-0065,Kappaplast,Germany,Cologne,50577,DE 552 141871,DE76812967000891626951,60 days net,Fasteners
+SUP-0014,Polarplast  S.r.l.,Italy,Turin,10066,IT83645074952,IT7688314366764020679701687,"2% 14 days, net 30",Valves
+SUP-0057,Boratronic SAS,France,Lyon,69101,FR 503 96663040,FR4046335356447392742441507,"2% 14 days, net 30",Electronic sensors
+SUP-0013,Orbisguss,Germany,Munich,80276,DE444463478,DE57612213878375762833,45 days,Rubber seals
+SUP-0003,NOVAWERK GMBH,Germany,Leipzig,04842,DE846563212,DE68233079244026859952,"2% 14 days, net 30",Packaging
+SUP-0052,Ventoplast  GmbH,Germany,Cologne,50599,DE081369154,DE09321455835865055785,60 days net,Electronic sensors
+SUP-0047,LUMENWERK S.R.O.,Czech Republic,Prague,11738,CZ 051 49431,CZ9820062452821495625535,45 days,Plastic housings
+SUP-0053,Boratc S.r.l.,Italy,Bologna,40767,IT94291244498,IT6351391924957561752448024,"2% 14 days, net 30",Electronic sensors
+SUP-0028,Tauroseal,Germany,Cologne,50922,DE598523534,DE83121362244643114367,60 days net,Aluminium castings
+SUP-0042,Voltawerk,Deutschland,Stuttgart,70011,,DE35235420419153796003,60 days net,Hoses & connectors
+SUP-0016,CERROCAST S.R.O.,Czech Republic,Brno,60037,CZ 143 65370,CZ5956563048137343373441,"2% 14 days, net 30",Valves
+SUP-0021,Ventoline  S.r.l.,Italy,Milan,20220,IT82619958225,IT0242821167342075096192396,Net 30,Electronic sensors
+SUP-0070,Ventotronic  GmbH,Austria,Graz,8044,ATU39576145,AT316567413978625024,"2% 14 days, net 30",Packaging
+SUP-0018,Atlaswerk,Germany,Munich,80177,DE 467 272042,DE46935575918362361078,"2% 14 days, net 30",Packaging
+SUP-0019,Nordplast  s.r.o.,Czech Republic,Brno,60167,CZ 232 67938,CZ3014449454437323324935,"2% 14 days, net 30",Rubber seals
+SUP-0046,RHEINSEAL GMBH,Germany,Munich,80939,DE846950140,DE41990310535166934815,"2% 14 days, net 30",Hoses & connectors
+SUP-0038,Pimaform S.r.l.,Italy,Milan,20183,IT65523994817,IT1142610689176926499167745,60 days net,Brazed heat exchangers
+SUP-0027,Nordguss,France,Toulouse,31815,FR 166 16053446,FR6688263728990595827852774,45 days,Electronic sensors
+SUP-0054,Boralne GmbH,Germany,Stuttgart,,DE901195203,DE37480503550769520601,60 days net,Fasteners
+SUP-0022,Velaguss Sp. z,Poland,Krakow,30256,PL1788002158,PL28108620191327423159425947,45 days,Plastic housings
+SUP-0073,NORDLINE GMBH,Germany,Leipzig,04896,DE058541792,DE63679735931624318073,60 days net,Electronic sensors
+SUP-0034,Primaplast,Italy,Bologna,40578,IT 333 12459956,IT1082307515712590548901039,60 days net,Valves
+SUP-0031,Orbistronic,Italy,Milan,20584,IT37153542910,IT1568689064100379088969291,45 days,Electronic sensors
+SUP-0037,ALPENWERK GMBH,Austria,Vienna,1134,ATU99783715,AT431204177984111628,Net 30,Electronic sensors
+SUP-0041,Cerroparts,Germany,Cologne,508389,,DE24600480461900327894,60 days net,Packaging
+SUP-0044,Novasel GmbH,Germany,Leipzig,,DE958369832,DE10181846092406123531,"2% 14 days, net 30",Rubber seals
+SUP-0011,Ferroflex,Germany,Cologne,50352,DE561748338,DE82014126906044319829,Net 30,Hoses & connectors
+SUP-0067,Cerrotec GmbH,Germany,Munich,80282,DE523335107,DE28078519130561592772,60 days net,Brazed heat exchangers
+SUP-0061,Boraetal Sp. z o.o.,Poland,Wroclaw,50950,,PL98692939513511766867019977,"2% 14 days, net 30",Hoses & connectors
+SUP-0033,Novaline,Germany,Cologne,50977,DE215267674,DE91954409959029496366,60 days net,Hoses & connectors
+SUP-0029,Boraseal,Germany,Leipzig,04837,DE585673268,DE09195044660016659413,Net 30,Brazed heat exchangers
+SUP-0030,Kraftcast  Sp.  z  o.o.,Poland,Wroclaw,502899,PL2579747566,PL10125009051877203625155788,Net 30,Electronic sensors
+SUP-0032,Velawek s.r.o.,Czech Republic,Brno,60610,CZ 248 44260,CZ3550699079801696710699,45 days,Plastic housings
+SUP-0017,KAPPATEC GMBH,Austria,Graz,8060,ATU09260026,AT177511253287046557,60 days net,Plastic housings
+SUP-0050,Boraflex  s.r.o.,Czech Republic,Prague,11129,CZ89658397,CZ1164132381341384738738,45 days,Rubber seals
+SUP-0002,Terraparts,Germany,Munich,80518,DE909378657,DE56975432319487574911,Net 30,Packaging
+SUP-0055,Aquaparts  GmbH,Austria,Graz,8069,AT U21 023281,AT665565898299539470,45 days,Brazed heat exchangers
+SUP-0066,RHEINGUSS SAS,France,Toulouse,31933,FR22406698149,FR5311933398031951039245179,Net 30,Plastic housings
+SUP-0004,Deltaarts SAS,France,Lille,59666,FR76031372159,FR2401092815901396245957117,Net 30,Valves
+SUP-0036,Aquametal GmbH,Germany,Munich,80832,DE911974232,DE77939430186085547106,60 days net,Valves
+SUP-0072,Alpencast  Sp.  z  o.o.,Poland,Krakow,30530,PL2748079890,PL66087173455893383498032084,"2% 14 days, net 30",Hoses & connectors
+SUP-0075,Silbermetal,Czech Republic,Ostrava,70246,CZ54013499,CZ7821916411180151281784,60 days net,Valves
+SUP-0063,TAUROGUSS GMBH,Germany,Munich,80997,DE733026102,DE92197208273438223817,"2% 14 days, net 30",Rubber seals
+SUP-0064,VELAFORM GMBH,Germany,Leipzig,04105,DE388147507,DE96137449981327439409,Net 30,Rubber seals
+SUP-0074,Silbercast  GmbH,Germany,Munich,80829,DE 186 010818,DE07899981089476083028,45 days,Valves
+SUP-0010,Atlsform s.r.o.,Czech Republic,Ostrava,70684,CZ35326502,CZ4201462016849340722470,60 days net,Brazed heat exchangers
+SUP-0035,Veltec GmbH,Austria,Linz,4008,ATU04870125,AT400349971755461576,Net 30,Plastic housings
+SUP-0059,NOVAMETAL SP. Z O.O.,Poland,Krakow,30238,PL8818571533,PL48142044103806854050784856,60 days net,Brazed heat exchangers
+SUP-0062,Nordtronic,Germany,Cologne,50868,DE044366844,DE61320385779255378050,"2% 14 days, net 30",Packaging
+SUP-0025,Rheinmeal s.r.o.,Czech Republic,Ostrava,,CZ 953 81613,CZ1533100147121345564054,Net 30,Brazed heat exchangers
+SUP-0006,Vltatronic Sp. z o.o.,Polska,Poznan,60551,PL1373537990,PL19751163726516761222029729,60 days net,Valves
+SUP-0060,KRAFTFORM SAS,France,Lille,59203,FR 963 31190068,FR6057857907785986365168495,45 days,Rubber seals
+SUP-0020,Polarmetal,Czech Republic,Brno,60307,,CZ5926464460495660536630,"2% 14 days, net 30",Hoses & connectors
+SUP-0007,Krfttec GmbH,Germany,Stuttgart,70826,DE304348395,DE14486205798682828807,60 days net,Plastic housings
+SUP-0056,Teraplast GmbH,Germany,Cologne,50240,DE 152 361092,DE48108838249522280537,"2% 14 days, net 30",Valves
+SUP-0012,Boracast GmbH,Germany,Cologne,50451,DE 691 564041,DE97042346853560688310,"2% 14 days, net 30",Hoses & connectors
+SUP-0001,FERROMETAL GMBH,Germany,Stuttgart,70181,DE 908 301661,DE68318609139099603082,45 days,Brazed heat exchangers
+SUP-0045,Orbisflex GmbH,Germany,Cologne,50134,DE645672420,DE31556073651241493060,60 days net,Plastic housings
+SUP-0008,KRAFTGUSS S.R.O.,Czech Republic,Brno,60805,CZ 180 33401,CZ3687801759898347887838,"2% 14 days, net 30",Brazed heat exchangers
+SUP-0049,Deltatc s.r.o.,Czech Republic,Brno,60264,CZ79593718,CZ6658768269910594996572,Net 30,Brazed heat exchangers
+SUP-0005,Ferrocast  GmbH,Deutschland,Munich,80803,DE280841485,DE10253888539336338750,45 days,Aluminium castings
+SUP-0039,Atlastronc GmbH,Germany,Leipzig,04674,DE 842 696931,DE65559353600049748489,60 days net,Hoses & connectors
+SUP-0040,Ventoguss,Germany,Cologne,50701,DE 165 868923,DE17676799581255514821,60 days net,Brazed heat exchangers
+SUP-0009,Silerguss GmbH,Germany,Leipzig,04492,DE831240234,DE49483478245040008838,Net 30,Valves
+SUP-0043,Ferroform s.r.o.,Czech Republic,Brno,60658,CZ63745360,CZ6740523213482877325536,60 days net,Hoses & connectors
+SUP-0071,Orisparts GmbH,Germany,Leipzig,04008,DE595431819,DE78614221665667552288,45 days,Hoses & connectors
+SUP-0015,PRIMAPARTS GMBH,Germany,Leipzig,04180,DE239042486,DE61111489364390084745,Net 30,Electronic sensors
+SUP-0058,Deltaflex  Sp.  z  o.o.,Poland,Krakow,30507,PL 624 0120242,PL42851276165650933002893961,60 days net,Aluminium castings
+SUP-0024,Velacast  GmbH,Austria,Graz,8065,AT U68 778006,AT883943699192200119,60 days net,Plastic housings
+SUP-0068,Cerroform  S.r.l.,Italy,Bologna,40498,IT14333978379,IT3906656613596404790176694,Net 30,Valves
+SUP-0026,Voltasal Sp. z o.o.,Poland,Wroclaw,50906,PL6815708931,PL53942608340057172795849243,Net 30,Electronic sensors
+SUP-0069,Kraftflex,Czech Republic,Ostrava,70806,CZ 943 48068,CZ6161675452970852380248,60 days net,Plastic housings
+SUP-0048,Taurotec  GmbH,Germany,Leipzig,04037,DE724991232,DE59276107733500986241,"2% 14 days, net 30",Aluminium castings

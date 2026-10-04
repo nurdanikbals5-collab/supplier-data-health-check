@@ -1,0 +1,61 @@
+issue_id,system,record_id,supplier_name,field,dimension,rule,value,severity,suggested_action
+DQ-0001,ERP_B,SUP-0065,Kappaplast,vat_number,consistency,VAT ID contains spaces,DE 552 141871,Low,Remove spaces during migration
+DQ-0002,ERP_B,SUP-0057,Boratronic SAS,vat_number,consistency,VAT ID contains spaces,FR 503 96663040,Low,Remove spaces during migration
+DQ-0003,ERP_B,SUP-0047,LUMENWERK S.R.O.,vat_number,consistency,VAT ID contains spaces,CZ 051 49431,Low,Remove spaces during migration
+DQ-0004,ERP_B,SUP-0042,Voltawerk,country,consistency,Country is not a standard English name / ISO code,Deutschland,Medium,Map to ISO code DE
+DQ-0005,ERP_B,SUP-0016,CERROCAST S.R.O.,vat_number,consistency,VAT ID contains spaces,CZ 143 65370,Low,Remove spaces during migration
+DQ-0006,ERP_B,SUP-0018,Atlaswerk,vat_number,consistency,VAT ID contains spaces,DE 467 272042,Low,Remove spaces during migration
+DQ-0007,ERP_B,SUP-0019,Nordplast  s.r.o.,vat_number,consistency,VAT ID contains spaces,CZ 232 67938,Low,Remove spaces during migration
+DQ-0008,ERP_B,SUP-0027,Nordguss,vat_number,consistency,VAT ID contains spaces,FR 166 16053446,Low,Remove spaces during migration
+DQ-0009,ERP_B,SUP-0034,Primaplast,vat_number,consistency,VAT ID contains spaces,IT 333 12459956,Low,Remove spaces during migration
+DQ-0010,ERP_B,SUP-0032,Velawek s.r.o.,vat_number,consistency,VAT ID contains spaces,CZ 248 44260,Low,Remove spaces during migration
+DQ-0011,ERP_B,SUP-0055,Aquaparts  GmbH,vat_number,consistency,VAT ID contains spaces,AT U21 023281,Low,Remove spaces during migration
+DQ-0012,ERP_B,SUP-0074,Silbercast  GmbH,vat_number,consistency,VAT ID contains spaces,DE 186 010818,Low,Remove spaces during migration
+DQ-0013,ERP_B,SUP-0025,Rheinmeal s.r.o.,vat_number,consistency,VAT ID contains spaces,CZ 953 81613,Low,Remove spaces during migration
+DQ-0014,ERP_B,SUP-0006,Vltatronic Sp. z o.o.,country,consistency,Country is not a standard English name / ISO code,Polska,Medium,Map to ISO code PL
+DQ-0015,ERP_B,SUP-0060,KRAFTFORM SAS,vat_number,consistency,VAT ID contains spaces,FR 963 31190068,Low,Remove spaces during migration
+DQ-0016,ERP_B,SUP-0056,Teraplast GmbH,vat_number,consistency,VAT ID contains spaces,DE 152 361092,Low,Remove spaces during migration
+DQ-0017,ERP_B,SUP-0012,Boracast GmbH,vat_number,consistency,VAT ID contains spaces,DE 691 564041,Low,Remove spaces during migration
+DQ-0018,ERP_B,SUP-0001,FERROMETAL GMBH,vat_number,consistency,VAT ID contains spaces,DE 908 301661,Low,Remove spaces during migration
+DQ-0019,ERP_B,SUP-0008,KRAFTGUSS S.R.O.,vat_number,consistency,VAT ID contains spaces,CZ 180 33401,Low,Remove spaces during migration
+DQ-0020,ERP_B,SUP-0005,Ferrocast  GmbH,country,consistency,Country is not a standard English name / ISO code,Deutschland,Medium,Map to ISO code DE
+DQ-0021,ERP_B,SUP-0039,Atlastronc GmbH,vat_number,consistency,VAT ID contains spaces,DE 842 696931,Low,Remove spaces during migration
+DQ-0022,ERP_B,SUP-0040,Ventoguss,vat_number,consistency,VAT ID contains spaces,DE 165 868923,Low,Remove spaces during migration
+DQ-0023,ERP_B,SUP-0058,Deltaflex  Sp.  z  o.o.,vat_number,consistency,VAT ID contains spaces,PL 624 0120242,Low,Remove spaces during migration
+DQ-0024,ERP_B,SUP-0024,Velacast  GmbH,vat_number,consistency,VAT ID contains spaces,AT U68 778006,Low,Remove spaces during migration
+DQ-0025,ERP_B,SUP-0069,Kraftflex,vat_number,consistency,VAT ID contains spaces,CZ 943 48068,Low,Remove spaces during migration
+DQ-0026,ERP_A,0000100055,Deltaplast GmbH,terms,completeness,Mandatory field 'terms' is empty,,Medium,Request value from supplier / purchasing
+DQ-0027,ERP_A,0000100186,Alpentronic GmbH,vat,completeness,Mandatory field 'vat' is empty,,High,Request value from supplier / purchasing
+DQ-0028,ERP_A,0000100334,Lumencast GmbH,iban,completeness,Mandatory field 'iban' is empty,,High,Request value from supplier / purchasing
+DQ-0029,ERP_A,0000100334,Lumencast GmbH,terms,completeness,Mandatory field 'terms' is empty,,Medium,Request value from supplier / purchasing
+DQ-0030,ERP_A,0000100247,Voltaflex GmbH,vat,completeness,Mandatory field 'vat' is empty,,High,Request value from supplier / purchasing
+DQ-0031,ERP_A,0000100168,Kraftseal S.r.l.,iban,completeness,Mandatory field 'iban' is empty,,High,Request value from supplier / purchasing
+DQ-0032,ERP_A,0000100216,Alpenwerk GmbH,terms,completeness,Mandatory field 'terms' is empty,,Medium,Request value from supplier / purchasing
+DQ-0033,ERP_A,0000100367,Ferroparts GmbH,vat,validity,VAT ID does not match the DE format,DE9663942,High,Verify VAT ID (e.g. EU VIES check)
+DQ-0034,ERP_A,0000100153,Atlasplast Sp. z o.o.,vat,validity,VAT ID does not match the PL format,PL36996393,High,Verify VAT ID (e.g. EU VIES check)
+DQ-0035,ERP_A,0000100162,Tauroform Sp. z o.o.,iban,completeness,Mandatory field 'iban' is empty,,High,Request value from supplier / purchasing
+DQ-0036,ERP_A,0000100071,Cerrowerk Sp. z o.o.,vat,completeness,Mandatory field 'vat' is empty,,High,Request value from supplier / purchasing
+DQ-0037,ERP_A,0000100011,Novaform GmbH,iban,validity,IBAN fails length or check-digit test,DE00104974650752917034,High,Block payments until bank data is confirmed
+DQ-0038,ERP_A,0000100387,Lumenparts GmbH,vat,completeness,Mandatory field 'vat' is empty,,High,Request value from supplier / purchasing
+DQ-0039,ERP_A,0000100019,Ferrocast GmbH,iban,completeness,Mandatory field 'iban' is empty,,High,Request value from supplier / purchasing
+DQ-0040,ERP_A,0000100314,Voltaplast GmbH,terms,completeness,Mandatory field 'terms' is empty,,Medium,Request value from supplier / purchasing
+DQ-0041,ERP_A,0000100302,Boraline GmbH,vat,completeness,Mandatory field 'vat' is empty,,High,Request value from supplier / purchasing
+DQ-0042,ERP_A,0000100127,Rheinplast S.r.l.,terms,completeness,Mandatory field 'terms' is empty,,Medium,Request value from supplier / purchasing
+DQ-0043,ERP_A,0000100007,Terraparts GmbH,vat,validity,VAT ID does not match the DE format,DE9093786,High,Verify VAT ID (e.g. EU VIES check)
+DQ-0044,ERP_A,0000100224,Ventometal GmbH,iban,validity,IBAN fails length or check-digit test,AT009568058253605182,High,Block payments until bank data is confirmed
+DQ-0045,ERP_A,0000100030,Nordwerk GmbH,vat,validity,VAT ID does not match the AT format,ATU402426,High,Verify VAT ID (e.g. EU VIES check)
+DQ-0046,ERP_A,0000100132,Silberwerk s.r.o.,vat,completeness,Mandatory field 'vat' is empty,,High,Request value from supplier / purchasing
+DQ-0047,ERP_B,SUP-0023,Cerroline GmbH,vat,completeness,Mandatory field 'vat' is empty,,High,Request value from supplier / purchasing
+DQ-0048,ERP_B,SUP-0042,Voltawerk,vat,completeness,Mandatory field 'vat' is empty,,High,Request value from supplier / purchasing
+DQ-0049,ERP_B,SUP-0054,Boralne GmbH,postcode,completeness,Mandatory field 'postcode' is empty,,Medium,Request value from supplier / purchasing
+DQ-0050,ERP_B,SUP-0041,Cerroparts,vat,completeness,Mandatory field 'vat' is empty,,High,Request value from supplier / purchasing
+DQ-0051,ERP_B,SUP-0041,Cerroparts,postcode,validity,Postcode length is wrong for DE,508389,Medium,Correct postcode
+DQ-0052,ERP_B,SUP-0044,Novasel GmbH,postcode,completeness,Mandatory field 'postcode' is empty,,Medium,Request value from supplier / purchasing
+DQ-0053,ERP_B,SUP-0061,Boraetal Sp. z o.o.,vat,completeness,Mandatory field 'vat' is empty,,High,Request value from supplier / purchasing
+DQ-0054,ERP_B,SUP-0030,Kraftcast  Sp.  z  o.o.,postcode,validity,Postcode length is wrong for PL,502899,Medium,Correct postcode
+DQ-0055,ERP_B,SUP-0025,Rheinmeal s.r.o.,postcode,completeness,Mandatory field 'postcode' is empty,,Medium,Request value from supplier / purchasing
+DQ-0056,ERP_B,SUP-0020,Polarmetal,vat,completeness,Mandatory field 'vat' is empty,,High,Request value from supplier / purchasing
+DQ-0057,ERP_A,0000100234,Nordcast Sp. z o.o.,record,uniqueness,Possible duplicate of 0000100417 (Same VAT ID),,High,Merge into one record before migration
+DQ-0058,ERP_A,0000100238,Primaform S.r.l.,record,uniqueness,Possible duplicate of 0000100422 (Same VAT ID),,High,Merge into one record before migration
+DQ-0059,ERP_A,0000100177,Atlasguss GmbH,record,uniqueness,Possible duplicate of 0000100412 (Same VAT ID),,High,Merge into one record before migration
+DQ-0060,ERP_A,0000100418,Lumenform  GmbH,record,uniqueness,Possible duplicate of 0000100192 (Same VAT ID),,High,Merge into one record before migration

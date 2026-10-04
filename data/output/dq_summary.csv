@@ -1,0 +1,5 @@
+dimension,ERP_A,ERP_B,total
+completeness,15,8,23
+consistency,0,25,25
+uniqueness,4,0,4
+validity,6,2,8

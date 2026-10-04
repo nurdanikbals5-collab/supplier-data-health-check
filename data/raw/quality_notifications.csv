@@ -1,0 +1,368 @@
+notification_id,po_number,supplier_id,created,description
+QN200001,4500000289,SUP-0001,2026-04-29,Porosity on casting surface
+QN200002,4500000340,SUP-0001,2026-08-23,Test report not attached to shipment
+QN200003,4500000392,0000100007,2026-07-30,Hole position shifted 0.4 mm
+QN200004,4500000407,0000100007,2026-08-26,"Seal not tight, fluid loss at flange"
+QN200005,4500000905,0000100007,2026-05-31,"Packaging damaged, parts loose in box"
+QN200006,4500000934,0000100007,2026-03-15,Test report not attached to shipment
+QN200007,4500001198,0000100011,2026-07-12,Leak detected at connector during pressure test
+QN200008,4500001392,0000100014,2026-06-26,Leak detected at connector during pressure test
+QN200009,4500001488,0000100014,2026-04-13,Coolant leakage at brazed joint
+QN200010,4500001513,0000100014,2026-04-27,"Packaging damaged, parts loose in box"
+QN200011,4500001616,SUP-0004,2026-02-17,"Seal not tight, fluid loss at flange"
+QN200012,4500001691,SUP-0004,2026-02-18,Wrong revision on delivery note
+QN200013,4500001776,SUP-0004,2026-01-10,Scratches and dents on visible surface
+QN200014,4500001950,SUP-0004,2026-07-26,Coolant leakage at brazed joint
+QN200015,4500002087,SUP-0004,2026-05-02,Coolant leakage at brazed joint
+QN200016,4500002710,SUP-0004,2026-03-03,Scratches and dents on visible surface
+QN200017,4500002734,SUP-0004,2026-01-16,Mixed parts in one container
+QN200018,4500002922,0000100019,2026-06-19,Test report not attached to shipment
+QN200019,4500002955,0000100019,2026-02-22,Porosity on casting surface
+QN200020,4500003048,0000100019,2026-02-04,Mixed parts in one container
+QN200021,4500003265,0000100019,2026-03-30,"Wrong label on pallet, part number missing"
+QN200022,4500003446,0000100019,2026-03-26,Wrong revision on delivery note
+QN200023,4500003656,0000100019,2026-02-01,"Seal not tight, fluid loss at flange"
+QN200024,4500003658,0000100019,2026-08-22,Wrong revision on delivery note
+QN200025,4500003707,SUP-0006,2026-04-01,Material certificate missing
+QN200026,4500003751,SUP-0006,2026-01-12,Hole position shifted 0.4 mm
+QN200027,4500003765,SUP-0006,2026-03-06,Leak detected at connector during pressure test
+QN200028,4500003792,SUP-0006,2026-01-24,"Packaging damaged, parts loose in box"
+QN200029,4500003838,SUP-0006,2026-08-05,Leak detected at connector during pressure test
+QN200030,4500004005,0000100026,2026-04-01,"Seal not tight, fluid loss at flange"
+QN200031,4500004030,0000100026,2026-02-10,Coolant leakage at brazed joint
+QN200032,4500004076,0000100026,2026-08-25,Corrosion spots found on delivery
+QN200033,4500004258,0000100026,2026-08-21,Coolant leakage at brazed joint
+QN200034,4500004420,0000100026,2026-07-19,Test report not attached to shipment
+QN200035,4500004489,0000100026,2026-04-07,Porosity on casting surface
+QN200036,4500004597,0000100026,2026-08-21,Material certificate missing
+QN200037,4500004710,0000100026,2026-08-20,Coolant leakage at brazed joint
+QN200038,4500004742,0000100026,2026-08-11,Coolant leakage at brazed joint
+QN200039,4500004753,0000100026,2026-02-08,Test report not attached to shipment
+QN200040,4500004755,0000100026,2026-04-06,Porosity on casting surface
+QN200041,4500004767,0000100026,2026-02-10,Hole position shifted 0.4 mm
+QN200042,4500004981,0000100026,2026-01-17,Material certificate missing
+QN200043,4500005196,0000100026,2026-01-26,Scratches and dents on visible surface
+QN200044,4500005462,0000100027,2026-05-24,Wall thickness below drawing spec
+QN200045,4500005480,0000100027,2026-05-17,Test report not attached to shipment
+QN200046,4500005668,0000100027,2026-05-27,Scratches and dents on visible surface
+QN200047,4500005680,0000100027,2026-04-05,Porosity on casting surface
+QN200048,4500005975,0000100029,2026-05-26,Coolant leakage at brazed joint
+QN200049,4500006022,0000100030,2026-04-01,Material certificate missing
+QN200050,4500006033,0000100030,2026-01-08,Scratches and dents on visible surface
+QN200051,4500006039,0000100030,2026-08-05,Material certificate missing
+QN200052,4500006294,0000100030,2026-04-01,"Wrong label on pallet, part number missing"
+QN200053,4500006316,0000100030,2026-01-26,"Wrong label on pallet, part number missing"
+QN200054,4500006346,0000100030,2026-05-07,Hole position shifted 0.4 mm
+QN200055,4500006613,0000100043,2026-04-09,"Wrong label on pallet, part number missing"
+QN200056,4500006645,0000100043,2026-02-09,Material certificate missing
+QN200057,4500006834,0000100043,2026-05-15,Material certificate missing
+QN200058,4500006928,0000100043,2026-06-23,"Packaging damaged, parts loose in box"
+QN200059,4500006940,0000100043,2026-07-16,Material certificate missing
+QN200060,4500006971,0000100043,2026-07-15,Mixed parts in one container
+QN200061,4500007132,0000100043,2026-05-24,"Seal not tight, fluid loss at flange"
+QN200062,4500007270,0000100046,2026-03-09,Wrong revision on delivery note
+QN200063,4500007293,0000100046,2026-03-14,Dimension out of tolerance on bore diameter
+QN200064,4500007352,0000100048,2026-05-15,Coolant leakage at brazed joint
+QN200065,4500007424,0000100055,2026-04-05,Mixed parts in one container
+QN200066,4500008946,SUP-0014,2026-01-30,"Packaging damaged, parts loose in box"
+QN200067,4500009563,0000100069,2026-06-03,Coolant leakage at brazed joint
+QN200068,4500009673,0000100069,2026-06-20,Dimension out of tolerance on bore diameter
+QN200069,4500009931,SUP-0017,2026-04-22,Porosity on casting surface
+QN200070,4500009954,SUP-0017,2026-05-21,Scratches and dents on visible surface
+QN200071,4500010126,SUP-0017,2026-01-26,"Seal not tight, fluid loss at flange"
+QN200072,4500011052,0000100071,2026-03-16,Coolant leakage at brazed joint
+QN200073,4500011078,0000100071,2026-03-20,Porosity on casting surface
+QN200074,4500011556,SUP-0019,2026-07-09,Leak detected at connector during pressure test
+QN200075,4500011586,SUP-0019,2026-02-18,Corrosion spots found on delivery
+QN200076,4500011967,0000100084,2026-09-09,Leak detected at connector during pressure test
+QN200077,4500012255,0000100090,2026-03-01,Corrosion spots found on delivery
+QN200078,4500012274,0000100090,2026-01-23,Material certificate missing
+QN200079,4500012497,0000100099,2026-06-29,Corrosion spots found on delivery
+QN200080,4500012699,0000100099,2026-06-25,Porosity on casting surface
+QN200081,4500012769,0000100099,2026-05-02,Coolant leakage at brazed joint
+QN200082,4500012939,0000100108,2026-05-10,Scratches and dents on visible surface
+QN200083,4500013008,0000100108,2026-04-29,Leak detected at connector during pressure test
+QN200084,4500013042,0000100108,2026-07-05,Material certificate missing
+QN200085,4500013490,0000100120,2026-04-25,"Seal not tight, fluid loss at flange"
+QN200086,4500013877,0000100127,2026-03-02,Material certificate missing
+QN200087,4500014141,0000100136,2026-04-14,Mixed parts in one container
+QN200088,4500014858,0000100142,2026-07-17,Mixed parts in one container
+QN200089,4500015539,0000100151,2026-04-09,"Packaging damaged, parts loose in box"
+QN200090,4500016210,0000100154,2026-07-01,Wrong revision on delivery note
+QN200091,4500016232,0000100154,2026-05-23,Porosity on casting surface
+QN200092,4500016340,0000100154,2026-07-08,Wrong revision on delivery note
+QN200093,4500016369,0000100154,2026-06-25,Corrosion spots found on delivery
+QN200094,4500016489,0000100162,2026-04-16,Corrosion spots found on delivery
+QN200095,4500017607,SUP-0030,2026-03-31,Scratches and dents on visible surface
+QN200096,4500017798,SUP-0031,2026-03-23,"Packaging damaged, parts loose in box"
+QN200097,4500018122,0000100169,2026-08-13,Corrosion spots found on delivery
+QN200098,4500018283,0000100169,2026-02-21,Porosity on casting surface
+QN200099,4500018784,0000100169,2026-07-02,"Seal not tight, fluid loss at flange"
+QN200100,4500019082,0000100169,2026-07-16,Test report not attached to shipment
+QN200101,4500019095,0000100177,2026-07-23,Leak detected at connector during pressure test
+QN200102,4500019172,0000100177,2026-08-01,Scratches and dents on visible surface
+QN200103,4500019182,0000100177,2026-07-18,Coolant leakage at brazed joint
+QN200104,4500019331,0000100180,2026-08-12,Coolant leakage at brazed joint
+QN200105,4500020499,0000100190,2026-07-03,Test report not attached to shipment
+QN200106,4500020639,0000100192,2026-07-19,Wrong revision on delivery note
+QN200107,4500021014,0000100196,2026-08-19,Material certificate missing
+QN200108,4500021090,0000100196,2026-03-13,"Wrong label on pallet, part number missing"
+QN200109,4500021126,0000100196,2026-06-19,"Wrong label on pallet, part number missing"
+QN200110,4500021172,0000100196,2026-03-12,Wall thickness below drawing spec
+QN200111,4500021383,0000100196,2026-06-19,Wall thickness below drawing spec
+QN200112,4500021438,0000100196,2026-03-24,Mixed parts in one container
+QN200113,4500021456,0000100196,2026-06-20,Porosity on casting surface
+QN200114,4500021566,0000100196,2026-05-14,Hole position shifted 0.4 mm
+QN200115,4500021587,0000100196,2026-07-16,Leak detected at connector during pressure test
+QN200116,4500021690,0000100203,2026-06-14,Dimension out of tolerance on bore diameter
+QN200117,4500022248,0000100206,2026-08-11,"Wrong label on pallet, part number missing"
+QN200118,4500022658,0000100210,2026-05-15,Dimension out of tolerance on bore diameter
+QN200119,4500022687,0000100216,2026-07-10,Mixed parts in one container
+QN200120,4500022714,0000100216,2026-06-08,Mixed parts in one container
+QN200121,4500022740,0000100216,2026-05-21,Material certificate missing
+QN200122,4500022817,0000100216,2026-08-06,Hole position shifted 0.4 mm
+QN200123,4500022844,0000100216,2026-03-21,Material certificate missing
+QN200124,4500022866,0000100216,2026-05-10,Corrosion spots found on delivery
+QN200125,4500022892,0000100216,2026-08-22,Dimension out of tolerance on bore diameter
+QN200126,4500022922,0000100216,2026-08-08,Corrosion spots found on delivery
+QN200127,4500023027,0000100216,2026-02-15,Test report not attached to shipment
+QN200128,4500023036,0000100216,2026-06-05,"Packaging damaged, parts loose in box"
+QN200129,4500023108,0000100230,2026-02-16,Material certificate missing
+QN200130,4500023114,0000100230,2026-04-15,"Seal not tight, fluid loss at flange"
+QN200131,4500023128,0000100230,2026-01-17,Hole position shifted 0.4 mm
+QN200132,4500023141,0000100230,2026-03-02,Wall thickness below drawing spec
+QN200133,4500023142,0000100230,2026-08-31,Dimension out of tolerance on bore diameter
+QN200134,4500023168,0000100230,2026-05-08,Material certificate missing
+QN200135,4500023170,0000100230,2026-06-03,Leak detected at connector during pressure test
+QN200136,4500023175,0000100230,2026-04-01,Corrosion spots found on delivery
+QN200137,4500023190,0000100230,2026-01-22,"Seal not tight, fluid loss at flange"
+QN200138,4500023204,0000100230,2026-04-29,Wrong revision on delivery note
+QN200139,4500023214,0000100230,2026-05-05,"Seal not tight, fluid loss at flange"
+QN200140,4500023286,0000100230,2026-04-02,Coolant leakage at brazed joint
+QN200141,4500023294,0000100230,2026-08-05,Porosity on casting surface
+QN200142,4500023403,0000100230,2026-04-04,Wrong revision on delivery note
+QN200143,4500023476,0000100230,2026-04-26,"Seal not tight, fluid loss at flange"
+QN200144,4500023510,0000100230,2026-02-05,"Seal not tight, fluid loss at flange"
+QN200145,4500023624,0000100234,2026-03-07,Wrong revision on delivery note
+QN200146,4500023736,0000100234,2026-08-15,"Seal not tight, fluid loss at flange"
+QN200147,4500023806,0000100234,2026-01-10,Dimension out of tolerance on bore diameter
+QN200148,4500023850,0000100234,2026-05-03,Corrosion spots found on delivery
+QN200149,4500024009,0000100234,2026-03-12,Coolant leakage at brazed joint
+QN200150,4500024107,0000100234,2026-08-25,Coolant leakage at brazed joint
+QN200151,4500024230,0000100238,2026-02-14,Mixed parts in one container
+QN200152,4500024301,0000100238,2026-02-08,"Wrong label on pallet, part number missing"
+QN200153,4500024336,0000100238,2026-06-14,Mixed parts in one container
+QN200154,4500024610,SUP-0039,2026-01-18,"Packaging damaged, parts loose in box"
+QN200155,4500024665,0000100243,2026-04-27,"Seal not tight, fluid loss at flange"
+QN200156,4500024737,0000100243,2026-04-16,Wall thickness below drawing spec
+QN200157,4500024802,0000100243,2026-01-17,Material certificate missing
+QN200158,4500025451,SUP-0041,2026-03-21,Porosity on casting surface
+QN200159,4500025688,SUP-0041,2026-05-13,"Wrong label on pallet, part number missing"
+QN200160,4500025843,SUP-0041,2026-06-04,"Seal not tight, fluid loss at flange"
+QN200161,4500026176,0000100244,2026-06-16,Material certificate missing
+QN200162,4500026208,0000100244,2026-04-14,Wrong revision on delivery note
+QN200163,4500026318,0000100244,2026-07-05,Dimension out of tolerance on bore diameter
+QN200164,4500026428,0000100244,2026-04-11,Hole position shifted 0.4 mm
+QN200165,4500026461,0000100244,2026-05-23,Scratches and dents on visible surface
+QN200166,4500026493,0000100244,2026-08-06,Wrong revision on delivery note
+QN200167,4500026727,0000100254,2026-03-08,Wrong revision on delivery note
+QN200168,4500026861,0000100254,2026-08-18,"Packaging damaged, parts loose in box"
+QN200169,4500026942,0000100254,2026-02-11,Coolant leakage at brazed joint
+QN200170,4500027053,0000100254,2026-01-27,Test report not attached to shipment
+QN200171,4500027088,0000100254,2026-01-24,Wall thickness below drawing spec
+QN200172,4500027097,0000100254,2026-07-09,"Packaging damaged, parts loose in box"
+QN200173,4500027130,0000100254,2026-07-03,Leak detected at connector during pressure test
+QN200174,4500027169,0000100254,2026-06-26,Scratches and dents on visible surface
+QN200175,4500027275,0000100261,2026-02-27,Scratches and dents on visible surface
+QN200176,4500027303,0000100261,2026-02-06,Mixed parts in one container
+QN200177,4500027330,0000100261,2026-02-19,Material certificate missing
+QN200178,4500027378,0000100261,2026-05-12,"Wrong label on pallet, part number missing"
+QN200179,4500027381,0000100261,2026-04-25,Mixed parts in one container
+QN200180,4500027439,0000100261,2026-08-29,Dimension out of tolerance on bore diameter
+QN200181,4500027471,0000100261,2026-04-06,Mixed parts in one container
+QN200182,4500027494,0000100261,2026-08-04,"Seal not tight, fluid loss at flange"
+QN200183,4500027639,0000100261,2026-07-17,Corrosion spots found on delivery
+QN200184,4500027828,0000100261,2026-06-18,Test report not attached to shipment
+QN200185,4500027925,SUP-0045,2026-01-26,Wall thickness below drawing spec
+QN200186,4500028040,SUP-0045,2026-04-27,Wall thickness below drawing spec
+QN200187,4500028130,SUP-0045,2026-07-03,"Packaging damaged, parts loose in box"
+QN200188,4500028491,SUP-0045,2026-06-29,"Packaging damaged, parts loose in box"
+QN200189,4500028505,SUP-0045,2026-05-15,Scratches and dents on visible surface
+QN200190,4500028520,SUP-0045,2026-03-14,Material certificate missing
+QN200191,4500029082,SUP-0046,2026-01-30,Wrong revision on delivery note
+QN200192,4500029123,SUP-0046,2026-03-04,Wrong revision on delivery note
+QN200193,4500029166,SUP-0046,2026-03-15,Hole position shifted 0.4 mm
+QN200194,4500029628,0000100271,2026-05-25,Wall thickness below drawing spec
+QN200195,4500029765,0000100277,2026-01-28,Wall thickness below drawing spec
+QN200196,4500029958,0000100277,2026-04-19,"Wrong label on pallet, part number missing"
+QN200197,4500029995,SUP-0048,2026-09-02,"Wrong label on pallet, part number missing"
+QN200198,4500030140,SUP-0048,2026-04-14,Material certificate missing
+QN200199,4500030351,SUP-0049,2026-01-29,Leak detected at connector during pressure test
+QN200200,4500030378,SUP-0050,2026-09-09,Material certificate missing
+QN200201,4500030542,SUP-0050,2026-02-10,Mixed parts in one container
+QN200202,4500031119,SUP-0051,2026-04-01,Dimension out of tolerance on bore diameter
+QN200203,4500031131,0000100286,2026-02-24,Scratches and dents on visible surface
+QN200204,4500031185,0000100286,2026-01-17,Test report not attached to shipment
+QN200205,4500031283,0000100286,2026-06-01,Coolant leakage at brazed joint
+QN200206,4500031303,0000100286,2026-08-24,Corrosion spots found on delivery
+QN200207,4500031322,0000100286,2026-04-16,Material certificate missing
+QN200208,4500031374,0000100286,2026-05-17,Corrosion spots found on delivery
+QN200209,4500031405,0000100286,2026-01-14,Porosity on casting surface
+QN200210,4500031452,0000100286,2026-08-01,Porosity on casting surface
+QN200211,4500031495,0000100286,2026-02-13,Leak detected at connector during pressure test
+QN200212,4500031526,0000100286,2026-06-30,Test report not attached to shipment
+QN200213,4500031559,0000100286,2026-07-28,Porosity on casting surface
+QN200214,4500031597,0000100286,2026-06-16,Test report not attached to shipment
+QN200215,4500031665,0000100286,2026-03-21,"Packaging damaged, parts loose in box"
+QN200216,4500031682,0000100286,2026-03-22,Scratches and dents on visible surface
+QN200217,4500031742,0000100286,2026-07-11,Porosity on casting surface
+QN200218,4500031843,0000100286,2026-03-18,"Packaging damaged, parts loose in box"
+QN200219,4500031856,0000100286,2026-03-06,"Packaging damaged, parts loose in box"
+QN200220,4500031900,0000100286,2026-04-12,Wall thickness below drawing spec
+QN200221,4500031939,0000100286,2026-01-12,"Wrong label on pallet, part number missing"
+QN200222,4500031955,0000100286,2026-05-30,Hole position shifted 0.4 mm
+QN200223,4500031993,0000100286,2026-05-02,"Seal not tight, fluid loss at flange"
+QN200224,4500032005,0000100286,2026-05-12,Dimension out of tolerance on bore diameter
+QN200225,4500032041,0000100286,2026-05-01,Dimension out of tolerance on bore diameter
+QN200226,4500032070,0000100286,2026-06-28,"Packaging damaged, parts loose in box"
+QN200227,4500032212,0000100286,2026-04-30,Coolant leakage at brazed joint
+QN200228,4500032299,0000100286,2026-08-27,Corrosion spots found on delivery
+QN200229,4500032320,0000100286,2026-08-26,Coolant leakage at brazed joint
+QN200230,4500032483,0000100292,2026-08-22,"Wrong label on pallet, part number missing"
+QN200231,4500032540,0000100292,2026-03-04,Material certificate missing
+QN200232,4500032551,0000100292,2026-09-05,Test report not attached to shipment
+QN200233,4500032604,0000100292,2026-01-06,Test report not attached to shipment
+QN200234,4500032849,0000100292,2026-02-21,Corrosion spots found on delivery
+QN200235,4500032867,0000100292,2026-03-25,Mixed parts in one container
+QN200236,4500032935,0000100292,2026-01-25,Wrong revision on delivery note
+QN200237,4500033078,0000100299,2026-06-07,"Wrong label on pallet, part number missing"
+QN200238,4500033093,0000100299,2026-08-26,Wrong revision on delivery note
+QN200239,4500033206,0000100299,2026-04-03,Wall thickness below drawing spec
+QN200240,4500033256,0000100299,2026-02-01,"Packaging damaged, parts loose in box"
+QN200241,4500033376,0000100299,2026-07-07,"Seal not tight, fluid loss at flange"
+QN200242,4500033395,0000100299,2026-01-27,"Packaging damaged, parts loose in box"
+QN200243,4500033483,0000100299,2026-02-09,Wall thickness below drawing spec
+QN200244,4500033564,0000100299,2026-03-02,Coolant leakage at brazed joint
+QN200245,4500033634,0000100299,2026-02-15,Dimension out of tolerance on bore diameter
+QN200246,4500033951,0000100299,2026-06-18,Dimension out of tolerance on bore diameter
+QN200247,4500033996,0000100299,2026-08-15,Test report not attached to shipment
+QN200248,4500034090,0000100299,2026-04-22,Scratches and dents on visible surface
+QN200249,4500034123,0000100299,2026-08-24,Scratches and dents on visible surface
+QN200250,4500034349,SUP-0053,2026-02-06,Porosity on casting surface
+QN200251,4500034363,SUP-0053,2026-05-21,Test report not attached to shipment
+QN200252,4500034538,0000100302,2026-08-03,"Seal not tight, fluid loss at flange"
+QN200253,4500034578,0000100302,2026-07-12,"Wrong label on pallet, part number missing"
+QN200254,4500034594,0000100302,2026-09-03,Mixed parts in one container
+QN200255,4500034647,0000100302,2026-05-27,"Packaging damaged, parts loose in box"
+QN200256,4500034881,0000100302,2026-03-08,Corrosion spots found on delivery
+QN200257,4500034959,0000100302,2026-02-04,Corrosion spots found on delivery
+QN200258,4500035149,SUP-0055,2026-03-26,"Packaging damaged, parts loose in box"
+QN200259,4500035177,SUP-0055,2026-02-07,Coolant leakage at brazed joint
+QN200260,4500035448,0000100310,2026-05-30,"Wrong label on pallet, part number missing"
+QN200261,4500036360,SUP-0058,2026-05-23,Mixed parts in one container
+QN200262,4500036525,SUP-0058,2026-08-25,Test report not attached to shipment
+QN200263,4500036538,SUP-0058,2026-09-17,Material certificate missing
+QN200264,4500037052,SUP-0060,2026-04-24,"Seal not tight, fluid loss at flange"
+QN200265,4500037131,SUP-0060,2026-05-24,Wrong revision on delivery note
+QN200266,4500037218,SUP-0060,2026-04-02,"Seal not tight, fluid loss at flange"
+QN200267,4500037293,SUP-0060,2026-04-02,Hole position shifted 0.4 mm
+QN200268,4500037673,0000100314,2026-04-05,Test report not attached to shipment
+QN200269,4500037956,0000100325,2026-05-24,Test report not attached to shipment
+QN200270,4500037981,0000100325,2026-02-27,Hole position shifted 0.4 mm
+QN200271,4500037986,0000100325,2026-07-21,"Wrong label on pallet, part number missing"
+QN200272,4500038031,0000100325,2026-05-15,Coolant leakage at brazed joint
+QN200273,4500038056,0000100325,2026-06-14,Porosity on casting surface
+QN200274,4500038125,0000100325,2026-09-01,Scratches and dents on visible surface
+QN200275,4500038167,0000100325,2026-05-12,Dimension out of tolerance on bore diameter
+QN200276,4500038286,SUP-0062,2026-05-02,"Packaging damaged, parts loose in box"
+QN200277,4500039615,0000100334,2026-03-21,Scratches and dents on visible surface
+QN200278,4500039732,0000100334,2026-08-16,Dimension out of tolerance on bore diameter
+QN200279,4500040002,0000100334,2026-02-06,Coolant leakage at brazed joint
+QN200280,4500040031,0000100334,2026-07-27,Material certificate missing
+QN200281,4500040063,0000100334,2026-02-02,"Seal not tight, fluid loss at flange"
+QN200282,4500040677,0000100334,2026-05-07,"Wrong label on pallet, part number missing"
+QN200283,4500040732,0000100334,2026-07-10,"Seal not tight, fluid loss at flange"
+QN200284,4500040862,0000100334,2026-08-20,Scratches and dents on visible surface
+QN200285,4500040872,0000100334,2026-07-08,"Packaging damaged, parts loose in box"
+QN200286,4500040947,SUP-0064,2026-08-12,Wrong revision on delivery note
+QN200287,4500040975,SUP-0064,2026-02-01,"Wrong label on pallet, part number missing"
+QN200288,4500040985,SUP-0064,2026-08-05,Wrong revision on delivery note
+QN200289,4500040999,SUP-0064,2026-08-07,Corrosion spots found on delivery
+QN200290,4500041011,SUP-0064,2026-04-01,Test report not attached to shipment
+QN200291,4500041036,SUP-0064,2026-01-06,Test report not attached to shipment
+QN200292,4500041134,0000100338,2026-01-30,Wall thickness below drawing spec
+QN200293,4500041188,0000100338,2026-04-17,Wrong revision on delivery note
+QN200294,4500041442,0000100338,2026-06-28,Scratches and dents on visible surface
+QN200295,4500041671,0000100342,2026-08-22,Dimension out of tolerance on bore diameter
+QN200296,4500042036,0000100342,2026-02-06,Mixed parts in one container
+QN200297,4500042337,0000100342,2026-05-10,Wall thickness below drawing spec
+QN200298,4500042729,SUP-0066,2026-04-18,Hole position shifted 0.4 mm
+QN200299,4500042798,SUP-0066,2026-04-08,Porosity on casting surface
+QN200300,4500043096,SUP-0067,2026-05-07,Material certificate missing
+QN200301,4500043541,SUP-0068,2026-02-21,Material certificate missing
+QN200302,4500043721,SUP-0068,2026-08-16,Coolant leakage at brazed joint
+QN200303,4500043880,SUP-0068,2026-05-29,Mixed parts in one container
+QN200304,4500043938,SUP-0068,2026-06-17,Porosity on casting surface
+QN200305,4500043956,0000100346,2026-04-24,Wall thickness below drawing spec
+QN200306,4500044005,0000100346,2026-09-05,Scratches and dents on visible surface
+QN200307,4500044025,0000100346,2026-03-17,"Packaging damaged, parts loose in box"
+QN200308,4500044077,0000100346,2026-01-22,Leak detected at connector during pressure test
+QN200309,4500044150,0000100346,2026-05-01,Test report not attached to shipment
+QN200310,4500044168,0000100346,2026-04-21,Hole position shifted 0.4 mm
+QN200311,4500044228,0000100346,2026-03-12,Corrosion spots found on delivery
+QN200312,4500044235,0000100346,2026-01-14,"Seal not tight, fluid loss at flange"
+QN200313,4500044353,0000100346,2026-02-18,Coolant leakage at brazed joint
+QN200314,4500044364,0000100346,2026-05-25,Coolant leakage at brazed joint
+QN200315,4500044400,0000100346,2026-03-06,Dimension out of tolerance on bore diameter
+QN200316,4500044451,0000100346,2026-01-21,Wall thickness below drawing spec
+QN200317,4500044532,0000100346,2026-07-21,"Wrong label on pallet, part number missing"
+QN200318,4500044544,0000100346,2026-01-14,Hole position shifted 0.4 mm
+QN200319,4500044779,0000100356,2026-01-07,Corrosion spots found on delivery
+QN200320,4500044812,0000100356,2026-08-17,Mixed parts in one container
+QN200321,4500045000,0000100356,2026-05-18,Porosity on casting surface
+QN200322,4500045045,0000100356,2026-05-15,"Seal not tight, fluid loss at flange"
+QN200323,4500045061,0000100356,2026-03-07,Hole position shifted 0.4 mm
+QN200324,4500045075,0000100356,2026-07-02,Mixed parts in one container
+QN200325,4500045096,0000100356,2026-09-04,Dimension out of tolerance on bore diameter
+QN200326,4500045124,0000100356,2026-06-01,Porosity on casting surface
+QN200327,4500045198,0000100358,2026-05-13,Test report not attached to shipment
+QN200328,4500045207,0000100366,2026-04-24,Material certificate missing
+QN200329,4500045369,0000100366,2026-01-07,Hole position shifted 0.4 mm
+QN200330,4500045418,0000100366,2026-07-03,Mixed parts in one container
+QN200331,4500045424,0000100366,2026-07-09,Porosity on casting surface
+QN200332,4500045442,0000100366,2026-03-30,Dimension out of tolerance on bore diameter
+QN200333,4500045717,0000100366,2026-06-14,Corrosion spots found on delivery
+QN200334,4500045725,0000100366,2026-03-31,Scratches and dents on visible surface
+QN200335,4500045834,0000100366,2026-09-07,Corrosion spots found on delivery
+QN200336,4500045927,0000100366,2026-01-20,Test report not attached to shipment
+QN200337,4500046095,0000100366,2026-07-31,Mixed parts in one container
+QN200338,4500046183,0000100366,2026-04-14,"Packaging damaged, parts loose in box"
+QN200339,4500046903,0000100367,2026-08-13,Material certificate missing
+QN200340,4500047398,0000100377,2026-03-16,Test report not attached to shipment
+QN200341,4500047486,0000100386,2026-05-14,Mixed parts in one container
+QN200342,4500047513,0000100386,2026-04-10,"Wrong label on pallet, part number missing"
+QN200343,4500047642,0000100386,2026-01-13,"Wrong label on pallet, part number missing"
+QN200344,4500047706,0000100386,2026-05-11,Test report not attached to shipment
+QN200345,4500047732,0000100386,2026-03-01,Wall thickness below drawing spec
+QN200346,4500047742,0000100386,2026-03-22,Material certificate missing
+QN200347,4500047840,0000100386,2026-02-18,Corrosion spots found on delivery
+QN200348,4500047902,0000100387,2026-04-06,Scratches and dents on visible surface
+QN200349,4500048216,0000100388,2026-08-21,Scratches and dents on visible surface
+QN200350,4500048311,0000100388,2026-03-21,Material certificate missing
+QN200351,4500048344,0000100388,2026-07-18,Test report not attached to shipment
+QN200352,4500048392,0000100388,2026-08-23,Material certificate missing
+QN200353,4500048417,0000100388,2026-06-05,Hole position shifted 0.4 mm
+QN200354,4500049271,0000100395,2026-07-12,Corrosion spots found on delivery
+QN200355,4500049510,0000100401,2026-04-23,Test report not attached to shipment
+QN200356,4500049607,0000100401,2026-05-12,"Seal not tight, fluid loss at flange"
+QN200357,4500049609,0000100401,2026-08-27,"Wrong label on pallet, part number missing"
+QN200358,4500050110,0000100405,2026-05-23,Coolant leakage at brazed joint
+QN200359,4500050420,0000100406,2026-03-02,Corrosion spots found on delivery
+QN200360,4500050441,0000100406,2026-02-06,Leak detected at connector during pressure test
+QN200361,4500050510,0000100406,2026-03-26,Coolant leakage at brazed joint
+QN200362,4500050607,0000100406,2026-02-21,Wrong revision on delivery note
+QN200363,4500050640,0000100406,2026-05-05,Scratches and dents on visible surface
+QN200364,4500050836,0000100406,2026-06-17,"Wrong label on pallet, part number missing"
+QN200365,4500050859,0000100406,2026-03-08,Wall thickness below drawing spec
+QN200366,4500050865,0000100406,2026-02-02,Hole position shifted 0.4 mm
+QN200367,4500050897,0000100406,2026-05-07,"Seal not tight, fluid loss at flange"

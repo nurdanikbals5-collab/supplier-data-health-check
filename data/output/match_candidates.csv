@@ -1,0 +1,46 @@
+record_1,name_1,record_2,name_2,match_type,score,reason,confidence
+ERP_A:0000100254,Ferroform s.r.o.,ERP_B:SUP-0043,Ferroform s.r.o.,same supplier in both systems,100,Same VAT ID,High
+ERP_A:0000100075,Atlaswerk GmbH,ERP_B:SUP-0018,Atlaswerk,same supplier in both systems,100,Same VAT ID,High
+ERP_A:0000100099,Ventoline S.r.l.,ERP_B:SUP-0021,Ventoline  S.r.l.,same supplier in both systems,100,Same VAT ID,High
+ERP_A:0000100206,Aquametal GmbH,ERP_B:SUP-0036,Aquametal GmbH,same supplier in both systems,100,Same VAT ID,High
+ERP_A:0000100069,Cerrocast s.r.o.,ERP_B:SUP-0016,CERROCAST S.R.O.,same supplier in both systems,100,Same VAT ID,High
+ERP_A:0000100169,Velawerk s.r.o.,ERP_B:SUP-0032,Velawek s.r.o.,same supplier in both systems,100,Same VAT ID,High
+ERP_A:0000100014,Novawerk GmbH,ERP_B:SUP-0003,NOVAWERK GMBH,same supplier in both systems,100,Same VAT ID,High
+ERP_A:0000100027,Kraftguss s.r.o.,ERP_B:SUP-0008,KRAFTGUSS S.R.O.,same supplier in both systems,100,Same VAT ID,High
+ERP_A:0000100154,Boraseal GmbH,ERP_B:SUP-0029,Boraseal,same supplier in both systems,100,Same VAT ID,High
+ERP_A:0000100115,Velaguss Sp. z o.o.,ERP_B:SUP-0022,Velaguss Sp. z,same supplier in both systems,100,Same VAT ID,High
+ERP_A:0000100142,Velacast GmbH,ERP_B:SUP-0024,Velacast  GmbH,same supplier in both systems,100,Same VAT ID,High
+ERP_A:0000100417,NORDCAST SP. Z O.O.,ERP_A:0000100234,Nordcast Sp. z o.o.,duplicate within one system,100,Same VAT ID,High
+ERP_A:0000100136,Cerroline GmbH,ERP_B:SUP-0023,Cerroline GmbH,same supplier in both systems,100,Same IBAN,High
+ERP_A:0000100338,Kappaplast GmbH,ERP_B:SUP-0065,Kappaplast,same supplier in both systems,100,Same VAT ID,High
+ERP_A:0000100422,PRIMAFORM S.R.L.,ERP_A:0000100238,Primaform S.r.l.,duplicate within one system,100,Same VAT ID,High
+ERP_A:0000100422,PRIMAFORM S.R.L.,ERP_B:SUP-0038,Pimaform S.r.l.,same supplier in both systems,100,Same VAT ID,High
+ERP_A:0000100261,Novaseal GmbH,ERP_B:SUP-0044,Novasel GmbH,same supplier in both systems,100,Same VAT ID,High
+ERP_A:0000100401,Silbermetal s.r.o.,ERP_B:SUP-0075,Silbermetal,same supplier in both systems,100,Same VAT ID,High
+ERP_A:0000100190,Primaplast S.r.l.,ERP_B:SUP-0034,Primaplast,same supplier in both systems,100,Same VAT ID,High
+ERP_A:0000100311,Novametal Sp. z o.o.,ERP_B:SUP-0059,NOVAMETAL SP. Z O.O.,same supplier in both systems,100,Same VAT ID,High
+ERP_A:0000100216,Alpenwerk GmbH,ERP_B:SUP-0037,ALPENWERK GMBH,same supplier in both systems,100,Same VAT ID,High
+ERP_A:0000100412,Atlasguss  GmbH,ERP_A:0000100177,Atlasguss GmbH,duplicate within one system,100,Same VAT ID,High
+ERP_A:0000100043,Ferroflex GmbH,ERP_B:SUP-0011,Ferroflex,same supplier in both systems,100,Same VAT ID,High
+ERP_A:0000100244,Voltawerk GmbH,ERP_B:SUP-0042,Voltawerk,same supplier in both systems,100,Same IBAN,High
+ERP_A:0000100151,Nordguss SAS,ERP_B:SUP-0027,Nordguss,same supplier in both systems,100,Same VAT ID,High
+ERP_A:0000100299,Ventoplast GmbH,ERP_B:SUP-0052,Ventoplast  GmbH,same supplier in both systems,100,Same VAT ID,High
+ERP_A:0000100377,Nordline GmbH,ERP_B:SUP-0073,NORDLINE GMBH,same supplier in both systems,100,Same VAT ID,High
+ERP_A:0000100019,Ferrocast GmbH,ERP_B:SUP-0005,Ferrocast  GmbH,same supplier in both systems,100,Same VAT ID,High
+ERP_A:0000100180,Novaline GmbH,ERP_B:SUP-0033,Novaline,same supplier in both systems,100,Same VAT ID,High
+ERP_A:0000100026,Krafttec GmbH,ERP_B:SUP-0007,Krfttec GmbH,same supplier in both systems,100,Same VAT ID,High
+ERP_A:0000100192,Lumenform GmbH,ERP_A:0000100418,Lumenform  GmbH,duplicate within one system,100,Same VAT ID,High
+ERP_A:0000100040,Atlasform s.r.o.,ERP_B:SUP-0010,Atlsform s.r.o.,same supplier in both systems,100,Same VAT ID,High
+ERP_A:0000100358,Ventotronic GmbH,ERP_B:SUP-0070,Ventotronic  GmbH,same supplier in both systems,100,Same VAT ID,High
+ERP_A:0000100302,Boraline GmbH,ERP_B:SUP-0054,Boralne GmbH,same supplier in both systems,100,Same IBAN,High
+ERP_A:0000100368,Alpencast Sp. z o.o.,ERP_B:SUP-0072,Alpencast  Sp.  z  o.o.,same supplier in both systems,100,Same VAT ID,High
+ERP_A:0000100356,Kraftflex s.r.o.,ERP_B:SUP-0069,Kraftflex,same supplier in both systems,100,Same VAT ID,High
+ERP_A:0000100310,Boratronic SAS,ERP_B:SUP-0057,Boratronic SAS,same supplier in both systems,100,Same VAT ID,High
+ERP_A:0000100090,Polarmetal s.r.o.,ERP_B:SUP-0020,Polarmetal,same supplier in both systems,100,Same IBAN,High
+ERP_A:0000100277,Lumenwerk s.r.o.,ERP_B:SUP-0047,LUMENWERK S.R.O.,same supplier in both systems,100,Same VAT ID,High
+ERP_A:0000100007,Terraparts GmbH,ERP_B:SUP-0002,Terraparts,same supplier in both systems,100,Same IBAN,High
+ERP_A:0000100243,Ventoguss GmbH,ERP_B:SUP-0040,Ventoguss,same supplier in both systems,100,Same VAT ID,High
+ERP_A:0000100035,Silberguss GmbH,ERP_B:SUP-0009,Silerguss GmbH,same supplier in both systems,100,Same VAT ID,High
+ERP_A:0000100366,Orbisparts GmbH,ERP_B:SUP-0071,Orisparts GmbH,same supplier in both systems,100,Same VAT ID,High
+ERP_A:0000100060,Primaparts GmbH,ERP_B:SUP-0015,PRIMAPARTS GMBH,same supplier in both systems,100,Same VAT ID,High
+ERP_A:0000100238,Primaform S.r.l.,ERP_B:SUP-0038,Pimaform S.r.l.,same supplier in both systems,100,Same VAT ID,High
