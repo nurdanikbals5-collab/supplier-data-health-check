@@ -1,0 +1,31 @@
+notification_id,category,second_category,confidence,reason
+QN200019,Surface,,high,Scratches on plastic tank surface
+QN200034,Documentation,Leakage,high,Leak test certificate is missing not a leak
+QN200069,Surface,,high,Corrosion spots on delivered parts
+QN200020,Packaging/Labeling,,high,Wet and soaked cardboard packaging
+QN200032,Surface,,high,Oxidation is surface corrosion on aluminium tubes
+QN200110,Dimensional,,high,Tube length deviates from drawing
+QN200044,Dimensional,,high,Bore diameter out of tolerance
+QN200009,Leakage,Surface,medium,Casting porosity causes pressure test leak
+QN200135,Leakage,,high,Leak at connector during pressure test
+QN200028,Packaging/Labeling,Documentation,medium,Label part number mismatches delivery note
+QN200295,Dimensional,,high,Mounting hole dimension check NOK
+QN200114,Dimensional,,high,Flange flatness exceeds specification
+QN200065,Packaging/Labeling,,high,Label missing on boxes
+QN200011,Leakage,,high,Oil cooler leaking at inlet port
+QN200360,Leakage,Packaging/Labeling,medium,Connector leaking due to transport damaged O-ring
+QN200092,Documentation,,medium,Overdue 8D report is a missing document
+QN200060,Packaging/Labeling,,high,Pallet collapsed and boxes crushed
+QN200012,Documentation,,high,Wrong PO number on delivery note
+QN200070,Surface,,high,Coating too thin and salt spray failed
+QN200088,Packaging/Labeling,,high,Wrong container type used
+QN200054,Dimensional,,high,Pipe ovality too high so clamp cannot close
+QN200057,Documentation,,high,Test report missing from shipment
+QN200018,Documentation,,high,IMDS entry missing for new part
+QN200041,Dimensional,Documentation,medium,Parts shipped with out-of-tolerance measurements
+QN200083,Leakage,,high,Helium leak test failed on radiators
+QN200006,Documentation,,high,Certificate of conformity missing
+QN200016,Surface,Packaging/Labeling,medium,Scratches caused by missing box separators
+QN200047,Surface,,high,Paint peeling is a coating defect
+QN200031,Leakage,,high,Pressure decay test failed part loses pressure
+QN200053,Packaging/Labeling,,high,VDA label missing batch number

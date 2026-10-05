@@ -1,0 +1,31 @@
+notification_id,text
+QN200019,scrathces on plastic tank
+QN200034,Leak test certificate missing for this batch
+QN200069,Corrosion spots found on delivery
+QN200020,"packging wet, cardboard soaked"
+QN200032,Oxidation on aluminium tubes
+QN200110,Tube length +3 mm vs drawing
+QN200044,Dimension out of tolerance on bore diameter
+QN200009,Porosity in casting causes leak at pressure test
+QN200135,Leak detected at connector during pressure test
+QN200028,"Label shows old part number, delivery note shows new one"
+QN200295,dimesion check NOK on mounting holes
+QN200114,"Flange flatness 0.25 mm, spec max 0.1 mm"
+QN200065,Etikett fehlt (label missing) on 3 boxes
+QN200011,Oil cooler leaking at the inlet port
+QN200360,"O-ring damaged in transport, connector leaking"
+QN200092,8D report overdue for previous complaint
+QN200060,"Pallet collapsed in truck, boxes crushed"
+QN200012,Lieferschein mit falscher Bestellnummer (wrong PO number on delivery note)
+QN200070,"Coating thickness too low, salt spray test failed"
+QN200088,One-way carton used instead of returnable container
+QN200054,"Pipe ovality too high, clamp cannot close"
+QN200057,Test report not attached to shipment
+QN200018,No IMDS entry for new part
+QN200041,"Measurement report shows out-of-tolerance values, parts shipped anyway"
+QN200083,Helium leak test failed on 3 of 50 radiators
+QN200006,CoC missing for this batch
+QN200016,Parts scratched because separators missing in box
+QN200047,Paint peeling off after 2 days
+QN200031,"Pressure decay test NOK, part loses pressure after 30 s"
+QN200053,VDA label missing batch number
