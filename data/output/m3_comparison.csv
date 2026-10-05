@@ -1,0 +1,31 @@
+notification_id,text,human_category,human_note,ai_category,ai_second_category,ai_confidence,ai_reason,true_category,ambiguous,true_second_category,ai_correct,human_correct,needs_review
+QN200019,scrathces on plastic tank,Surface,,Surface,,high,Scratches on plastic tank surface,Surface,False,,True,True,False
+QN200034,Leak test certificate missing for this batch,Documentation,,Documentation,Leakage,high,Leak test certificate is missing not a leak,Documentation,True,Leakage,True,True,True
+QN200069,Corrosion spots found on delivery,Packaging/Labeling,Surface,Surface,,high,Corrosion spots on delivered parts,Surface,False,,True,False,False
+QN200020,"packging wet, cardboard soaked",Packaging/Labeling,,Packaging/Labeling,,high,Wet and soaked cardboard packaging,Packaging/Labeling,False,,True,True,False
+QN200032,Oxidation on aluminium tubes,Leakage,,Surface,,high,Oxidation is surface corrosion on aluminium tubes,Surface,False,,True,False,False
+QN200110,Tube length +3 mm vs drawing,Dimensional,,Dimensional,,high,Tube length deviates from drawing,Dimensional,False,,True,True,False
+QN200044,Dimension out of tolerance on bore diameter,Dimensional,,Dimensional,,high,Bore diameter out of tolerance,Dimensional,False,,True,True,False
+QN200009,Porosity in casting causes leak at pressure test,Leakage,Documentation,Leakage,Surface,medium,Casting porosity causes pressure test leak,Leakage,True,Surface,True,True,True
+QN200135,Leak detected at connector during pressure test,Leakage,Documentation,Leakage,,high,Leak at connector during pressure test,Leakage,False,,True,True,False
+QN200028,"Label shows old part number, delivery note shows new one",Packaging/Labeling,Documentation,Packaging/Labeling,Documentation,medium,Label part number mismatches delivery note,Packaging/Labeling,True,Documentation,True,True,True
+QN200295,dimesion check NOK on mounting holes,Dimensional,,Dimensional,,high,Mounting hole dimension check NOK,Dimensional,False,,True,True,False
+QN200114,"Flange flatness 0.25 mm, spec max 0.1 mm",Dimensional,,Dimensional,,high,Flange flatness exceeds specification,Dimensional,False,,True,True,False
+QN200065,Etikett fehlt (label missing) on 3 boxes,Packaging/Labeling,,Packaging/Labeling,,high,Label missing on boxes,Packaging/Labeling,False,,True,True,False
+QN200011,Oil cooler leaking at the inlet port,Leakage,,Leakage,,high,Oil cooler leaking at inlet port,Leakage,False,,True,True,False
+QN200360,"O-ring damaged in transport, connector leaking",Leakage,Packaging/Labeling,Leakage,Packaging/Labeling,medium,Connector leaking due to transport damaged O-ring,Leakage,True,Packaging/Labeling,True,True,True
+QN200092,8D report overdue for previous complaint,Dimensional,,Documentation,,medium,Overdue 8D report is a missing document,Documentation,False,,True,False,True
+QN200060,"Pallet collapsed in truck, boxes crushed",Packaging/Labeling,,Packaging/Labeling,,high,Pallet collapsed and boxes crushed,Packaging/Labeling,False,,True,True,False
+QN200012,Lieferschein mit falscher Bestellnummer (wrong PO number on delivery note),Documentation,,Documentation,,high,Wrong PO number on delivery note,Documentation,False,,True,True,False
+QN200070,"Coating thickness too low, salt spray test failed",Leakage,Surface,Surface,,high,Coating too thin and salt spray failed,Surface,False,,True,False,False
+QN200088,One-way carton used instead of returnable container,Surface,,Packaging/Labeling,,high,Wrong container type used,Packaging/Labeling,False,,True,False,False
+QN200054,"Pipe ovality too high, clamp cannot close",Dimensional,,Dimensional,,high,Pipe ovality too high so clamp cannot close,Dimensional,False,,True,True,False
+QN200057,Test report not attached to shipment,Documentation,,Documentation,,high,Test report missing from shipment,Documentation,False,,True,True,False
+QN200018,No IMDS entry for new part,Documentation,,Documentation,,high,IMDS entry missing for new part,Documentation,False,,True,True,False
+QN200041,"Measurement report shows out-of-tolerance values, parts shipped anyway",Dimensional,,Dimensional,Documentation,medium,Parts shipped with out-of-tolerance measurements,Dimensional,True,Documentation,True,True,True
+QN200083,Helium leak test failed on 3 of 50 radiators,Leakage,,Leakage,,high,Helium leak test failed on radiators,Leakage,False,,True,True,False
+QN200006,CoC missing for this batch,Documentation,Leakage,Documentation,,high,Certificate of conformity missing,Documentation,False,,True,True,False
+QN200016,Parts scratched because separators missing in box,Documentation,,Surface,Packaging/Labeling,medium,Scratches caused by missing box separators,Surface,True,Packaging/Labeling,True,False,True
+QN200047,Paint peeling off after 2 days,Unclear,because its about time,Surface,,high,Paint peeling is a coating defect,Surface,False,,True,False,False
+QN200031,"Pressure decay test NOK, part loses pressure after 30 s",Documentation,,Leakage,,high,Pressure decay test failed part loses pressure,Leakage,False,,True,False,False
+QN200053,VDA label missing batch number,Documentation,,Packaging/Labeling,,high,VDA label missing batch number,Packaging/Labeling,False,,True,False,False
