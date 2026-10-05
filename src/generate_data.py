@@ -10,6 +10,7 @@ Outputs (data/raw/):
   purchase_order_lines.csv   - PO lines with promised vs. actual delivery
   quality_notifications.csv  - free-text supplier quality complaints
   _truth_supplier_ids.csv    - hidden answer key (which records are the same real supplier)
+  _truth_quality_categories.csv - hidden answer key for the complaint categories (M3)
 """
 import random
 import string
@@ -193,6 +194,59 @@ for s in suppliers:
                                 created=(promised + timedelta(days=late + random.randint(0, 5))).isoformat(),
                                 description=random.choice(texts), true_category=cat))
 
+# Richer complaint texts for M3: varied wording, typos, German terms and ~12 % ambiguous cases that fit two
+# categories. A separate RNG keeps every other synthetic value (and therefore M1/M2 results) unchanged.
+TEXTS = {
+    "Leakage": ["Leak detected at connector during pressure test", "Coolant leakage at brazed joint",
+                "Seal not tight, fluid loss at flange", "Helium leak test failed on 3 of 50 radiators",
+                "Pressure decay test NOK, part loses pressure after 30 s", "Drops of coolant under hose clamp after assembly",
+                "Undicht an der Lötnaht (brazing seam leaking)", "Oil cooler leaking at the inlet port",
+                "Customer line reports fluid loss at EGR cooler", "Bubble test shows leakage at tube-to-header joint",
+                "leakge at fitting, see photos"],
+    "Dimensional": ["Dimension out of tolerance on bore diameter", "Wall thickness below drawing spec",
+                    "Hole position shifted 0.4 mm", "Flange flatness 0.25 mm, spec max 0.1 mm", "Tube length +3 mm vs drawing",
+                    "Thread M8: no-go gauge fails", "CMM report: 4 of 10 parts outside tolerance at pos. 12",
+                    "Maß außerhalb Toleranz (outer diameter too large)", "Pipe ovality too high, clamp cannot close",
+                    "dimesion check NOK on mounting holes"],
+    "Surface": ["Scratches and dents on visible surface", "Corrosion spots found on delivery", "Porosity on casting surface",
+                "Paint peeling off after 2 days", "White rust on zinc-coated brackets",
+                "Kratzer auf Sichtfläche (scratches on class A surface)", "Black marks / contamination on fins",
+                "Coating thickness too low, salt spray test failed", "Oxidation on aluminium tubes",
+                "scrathces on plastic tank"],
+    "Packaging/Labeling": ["Wrong label on pallet, part number missing", "Packaging damaged, parts loose in box",
+                           "Mixed parts in one container", "KLT label shows wrong quantity (100 instead of 200)",
+                           "Barcode on label not readable at goods receipt", "Pallet collapsed in truck, boxes crushed",
+                           "One-way carton used instead of returnable container", "Etikett fehlt (label missing) on 3 boxes",
+                           "VDA label missing batch number", "packging wet, cardboard soaked"],
+    "Documentation": ["Material certificate missing", "Wrong revision on delivery note", "Test report not attached to shipment",
+                      "PPAP documents incomplete, PSW not signed", "3.1 certificate shows wrong heat number",
+                      "8D report overdue for previous complaint",
+                      "Lieferschein mit falscher Bestellnummer (wrong PO number on delivery note)",
+                      "CoC missing for this batch", "No IMDS entry for new part", "certifcate of conformity not sent"],
+}
+AMBIGUOUS = {  # main category -> (text, second plausible category)
+    "Leakage": [("Porosity in casting causes leak at pressure test", "Surface"),
+                ("Leak at flange because sealing face is out of flatness", "Dimensional"),
+                ("O-ring damaged in transport, connector leaking", "Packaging/Labeling")],
+    "Dimensional": [("Burr on edge, part does not fit housing", "Surface"),
+                    ("Parts made to old drawing revision, hole pattern different", "Documentation"),
+                    ("Measurement report shows out-of-tolerance values, parts shipped anyway", "Documentation")],
+    "Surface": [("Parts scratched because separators missing in box", "Packaging/Labeling"),
+                ("Corrosion on parts, they were packed wet", "Packaging/Labeling"),
+                ("Dirt and chips inside ports, protective caps missing", "Packaging/Labeling")],
+    "Packaging/Labeling": [("Label and delivery note show different quantities", "Documentation"),
+                           ("Label shows old part number, delivery note shows new one", "Documentation")],
+    "Documentation": [("Leak test certificate missing for this batch", "Leakage"),
+                      ("Delivery note refers to old drawing revision", "Dimensional")],
+}
+text_rng = random.Random(SEED + 1)
+for row in qn_rows:
+    if text_rng.random() < 0.12:
+        row["description"], row["second_category"] = text_rng.choice(AMBIGUOUS[row["true_category"]])
+    else:
+        row["description"], row["second_category"] = text_rng.choice(TEXTS[row["true_category"]]), ""
+    row["ambiguous"] = bool(row["second_category"])
+
 # Supplier IDs in transactions: the migrated system only knows legacy IDs, so map to ERP_A if possible, else ERP_B
 truth_df = pd.DataFrame(truth)
 first_a = truth_df[truth_df.system == "ERP_A"].drop_duplicates("true_id").set_index("true_id")["record_id"]
@@ -206,7 +260,7 @@ qns.insert(2, "supplier_id", qns.true_id.map(legacy))
 a.sample(frac=1, random_state=SEED).to_csv(OUT / "erp_a_vendors.csv", index=False)
 b.sample(frac=1, random_state=SEED).to_csv(OUT / "erp_b_suppliers.csv", index=False)
 pos.drop(columns="true_id").to_csv(OUT / "purchase_order_lines.csv", index=False)
-qns.drop(columns=["true_id", "true_category"]).to_csv(OUT / "quality_notifications.csv", index=False)
+qns.drop(columns=["true_id", "true_category", "second_category", "ambiguous"]).to_csv(OUT / "quality_notifications.csv", index=False)
 truth_df.to_csv(OUT / "_truth_supplier_ids.csv", index=False)
-qns[["notification_id", "true_category"]].to_csv(OUT / "_truth_quality_categories.csv", index=False)
+qns[["notification_id", "true_category", "ambiguous", "second_category"]].to_csv(OUT / "_truth_quality_categories.csv", index=False)
 print(f"ERP_A vendors: {len(a)} | ERP_B suppliers: {len(b)} | PO lines: {len(pos)} | quality notifications: {len(qns)}")
