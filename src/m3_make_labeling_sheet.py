@@ -66,6 +66,8 @@ for col, w in zip("ABC", [20, 90, 34]):
     guide.column_dimensions[col].width = w
 
 out = ROOT / "excel" / "M3_Complaint_Labeling.xlsx"
+if out.exists():
+    raise SystemExit(f"{out} already exists (it holds the human labels) - not overwritten")
 wb.save(out)
 print(f"{len(sample)} complaints ({sample.ambiguous.eq('True').sum()} ambiguous) written to {out}")
 print(sample.true_category.value_counts().to_string())

@@ -1,6 +1,6 @@
 # Supplier Data Health Check for an SAP S/4HANA Migration
 
-> **Work in progress (October 2026).** A full README with results and screenshots will follow.
+> **Work in progress (October 2026).** Screenshots and a short summary deck will follow.
 
 A small portfolio project that simulates a common migration problem: two ERP systems (one SAP-like, one non-SAP) hold overlapping supplier master data that must be cleaned and merged into one system.
 
@@ -15,8 +15,34 @@ A small portfolio project that simulates a common migration problem: two ERP sys
 |---|---|---|
 | M1 Data quality | Finds missing, inconsistent, invalid and duplicate supplier records; merges both ERPs into golden records | Done |
 | M2 Supplier analysis | Supplier KPIs (on-time delivery, PPM, spend) and transparent KPI-based segments | Done |
-| M3 AI layer | Classifies quality complaints with AI and measures it against human labels | Planned |
-| M4 Ticket tracker (Excel) | Data-quality issues as tickets: table, dropdown lists, formulas, KPIs, dashboard | In progress |
+| M3 Trustworthy AI | AI classifies quality complaints; results are measured against my own labels and a human-review rule | Done (first test) |
+| M4 Ticket tracker (Excel) | Data-quality issues as tickets with formulas, KPIs and a dashboard | Done |
+
+## M4: Excel ticket tracker (built by me)
+
+`excel/BU2_Ticket_Tracker.xlsx` turns the 60 data-quality issues from M1 into tickets.
+Created dates, status and owners are simulated.
+
+- **Tickets sheet:** Excel Table `tblTickets`, frozen header, filters, dropdown lists (data validation) for Status and Priority
+- **Formulas:** `XLOOKUP` (supplier segment from the M2 scorecard, SLA days per priority), `IF` + `TODAY` (ticket age), `IF` (SLA breached or OK)
+- **Dashboard sheet:** KPIs with `COUNTA`, `COUNTIF` and `COUNTIFS`; conditional formatting; PivotTable by supplier segment and SLA status with a Status slicer
+- **Example result (5 Oct 2026):** 39 of 60 tickets are open and 29 of them are past their SLA. The formula KPIs and the PivotTable give the same numbers.
+
+## M3: Can we trust an AI to sort quality complaints?
+
+1. 30 complaints were sampled (6 per category, 6 of them ambiguous). Texts include typos and German terms.
+2. **I labelled them by hand** first, using a written labelling guide.
+3. A **separate Claude session** that had seen neither the answer key nor my labels classified them with the prompt in `prompts/m3_classify_prompt.md`.
+4. `src/m3_evaluate.py` compares both with the synthetic answer key and tests a review rule.
+
+| | Correct (of 30) |
+|---|---|
+| AI | 30 |
+| My labels | 21 (mistakes came from unfamiliar technical terms, e.g. salt spray test, 8D, VDA label) |
+
+**Review rule:** the AI may decide alone only when its confidence is "high" and it sees no second category. On this test the rule sent 7 complaints to a human, including all 6 ambiguous ones; the 23 auto-assigned complaints were all correct.
+
+**Limits:** the texts are short and synthetic, and the categories were defined by the same person who wrote them, so 30/30 is optimistic. Real complaints would need a new test before any use.
 
 ## Run
 
@@ -26,4 +52,10 @@ python -m venv .venv
 .venv/bin/python src/generate_data.py
 .venv/bin/python src/m1_data_quality.py
 .venv/bin/python src/m2_supplier_analysis.py
+.venv/bin/python src/m4_export_tickets.py
+.venv/bin/python src/m4_export_supplier_lookup.py
+.venv/bin/python src/m3_make_labeling_sheet.py
+.venv/bin/python src/m3_evaluate.py
 ```
+
+`src/m4_export_tickets.py` writes the starting file `excel/BU2_Ticket_Tracker_start.xlsx`; the finished tracker was built from it by hand in Excel.
