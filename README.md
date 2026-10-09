@@ -17,6 +17,7 @@ A small portfolio project that simulates a common migration problem: two ERP sys
 | M2 Supplier analysis | Supplier KPIs (on-time delivery, PPM, spend) and transparent KPI-based segments | Done |
 | M3 Trustworthy AI | AI classifies quality complaints; results are measured against my own labels and a human-review rule | Done (first test) |
 | M4 Ticket tracker (Excel) | Data-quality issues as tickets with formulas, KPIs and a dashboard | Done |
+| Process analysis (BPMN) | As-is vs. to-be model of the supplier data correction process | Done |
 | M5 AI use-case prioritization (Excel) | 8 AI ideas for the migration scored and ranked; value-vs-effort matrix | Done |
 
 ## M4: Excel ticket tracker (built by me)
@@ -28,6 +29,28 @@ Created dates, status and owners are simulated.
 - **Formulas:** `XLOOKUP` (supplier segment from the M2 scorecard, SLA days per priority), `IF` + `TODAY` (ticket age), `IF` (SLA breached or OK)
 - **Dashboard sheet:** KPIs with `COUNTA`, `COUNTIF` and `COUNTIFS`; conditional formatting; PivotTable by supplier segment and SLA status with a Status slicer
 - **Example result (5 Oct 2026):** 39 of 60 tickets are open and 29 of them are past their SLA. The formula KPIs and the PivotTable give the same numbers.
+
+## Process analysis: as-is vs. to-be (BPMN 2.0, drawn by me)
+
+I modelled how supplier data errors are corrected today (as-is) and how the process works with the rules from M1 and the ticket tracker from M4 (to-be). Both models are in `docs/` as `.bpmn` (open them at bpmn.io) and `.svg`.
+
+| | As-is | To-be |
+|---|---|---|
+| Checks | By hand in Excel | Rules (M1) run automatically |
+| Issues that go to the supplier | All of them, by e-mail | 25 of 60 (the other 25 are fixed by rules, 10 internally) |
+| Hand-offs between teams for a supplier issue | 4 (via the buyer both ways) | 3 (supplier answers directly with the ticket ID) |
+| Tracking | None | Ticket with priority and SLA, dashboard (M4) |
+| Manual tasks in the model | 7 | 3 |
+
+The split of the 60 issues comes from the `suggested_action` column of M1's issue list. Times are not measured, because the data is synthetic.
+
+**As-is**
+
+![As-is process](docs/process_as_is.svg)
+
+**To-be**
+
+![To-be process](docs/process_to_be.svg)
 
 ## M5: Which AI idea first? (built by me)
 
