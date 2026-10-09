@@ -17,6 +17,7 @@ A small portfolio project that simulates a common migration problem: two ERP sys
 | M2 Supplier analysis | Supplier KPIs (on-time delivery, PPM, spend) and transparent KPI-based segments | Done |
 | M3 Trustworthy AI | AI classifies quality complaints; results are measured against my own labels and a human-review rule | Done (first test) |
 | M4 Ticket tracker (Excel) | Data-quality issues as tickets with formulas, KPIs and a dashboard | Done |
+| M5 AI use-case prioritization (Excel) | 8 AI ideas for the migration scored and ranked; value-vs-effort matrix | Done |
 
 ## M4: Excel ticket tracker (built by me)
 
@@ -27,6 +28,17 @@ Created dates, status and owners are simulated.
 - **Formulas:** `XLOOKUP` (supplier segment from the M2 scorecard, SLA days per priority), `IF` + `TODAY` (ticket age), `IF` (SLA breached or OK)
 - **Dashboard sheet:** KPIs with `COUNTA`, `COUNTIF` and `COUNTIFS`; conditional formatting; PivotTable by supplier segment and SLA status with a Status slicer
 - **Example result (5 Oct 2026):** 39 of 60 tickets are open and 29 of them are past their SLA. The formula KPIs and the PivotTable give the same numbers.
+
+## M5: Which AI idea first? (built by me)
+
+`excel/AI_Use_Case_Prioritization.xlsx` lists 8 AI use cases for the migration (from duplicate detection to an agent that changes master data by itself).
+
+- **I scored** each one from 1 to 5 on business value, data readiness, effort and risk, using the written guide in the `Scoring Guide` sheet.
+- **Weighted score:** value 40%, data readiness 20%, effort 20% and risk 20%. Effort and risk count against an idea, so they are inverted with `6 - score`. Ranked with `RANK.EQ`.
+- **Result:** complaint classification (already piloted in M3) ranks first. The auto-correcting master-data agent ranks last because it would change data without a human check. I raised the risk of the AI supplier summary because language models can invent numbers.
+- The scores are my own judgement for a simulated company, not measured values.
+
+![AI use cases: value vs. effort](docs/ai_use_case_matrix.png)
 
 ## M3: Can we trust an AI to sort quality complaints?
 
