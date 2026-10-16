@@ -2,7 +2,7 @@
 
 A portfolio project that simulates a common migration problem: two ERP systems (one SAP-like, one non-SAP) hold overlapping supplier master data that must be cleaned and merged into one SAP S/4HANA system. The project follows the data from the quality check to supplier KPIs, a ticket process, AI use cases and the mapping to SAP.
 
-**Status (October 2026):** M1 to M5 and the process analysis are done; M6 (spend analysis) and M7 (SAP mapping) are in progress.
+**Status (October 2026):** M1 to M5, the process analysis and M7 (SAP mapping) are done; M6 (spend analysis) is in progress.
 
 ## At a glance
 
@@ -15,7 +15,7 @@ A portfolio project that simulates a common migration problem: two ERP systems (
 | Process (BPMN 2.0) | As-is vs. to-be: rules fix 25 of 60 issues, manual tasks in the model drop from 7 to 3 |
 | AI use cases (M5, Excel) | 8 AI ideas scored on value, data readiness, effort and risk |
 | Spend (M6, Excel) | ABC analysis: 60 A, 34 B and 26 C suppliers |
-| SAP mapping (M7, Excel) | 18 legacy fields mapped to the S/4HANA business partner (LFA1, LFBK, LFB1) with transformation rules |
+| SAP mapping (M7, Excel) | 18 legacy fields mapped to the S/4HANA business partner (LFA1, LFBK, LFB1) with transformation rules; 8 project steps mapped to SAP apps and transactions |
 
 ## Please note
 
@@ -34,7 +34,7 @@ A portfolio project that simulates a common migration problem: two ERP systems (
 | Process analysis (BPMN) | As-is vs. to-be model of the supplier data correction process | Done |
 | M5 AI use-case prioritization (Excel) | 8 AI ideas for the migration scored and ranked; value-vs-effort matrix | Done |
 | M6 Spend analysis (Excel) | Spend shares, ABC classes, payment terms | In progress (ABC done) |
-| M7 SAP S/4HANA mapping (Excel) | Legacy fields and project steps mapped to S/4HANA objects, tables and rules | In progress (field mapping done) |
+| M7 SAP S/4HANA mapping (Excel) | Legacy fields and project steps mapped to S/4HANA objects, tables and rules | Done (conceptual) |
 
 ## M1: Data quality and golden records
 
@@ -114,7 +114,7 @@ The split of the 60 issues comes from the `suggested_action` column of M1's issu
 - **ABC classes** with a nested `IF` (A up to 80% of spend, B up to 95%, C the rest) and a `COUNTIF` summary: **60 A, 34 B, 26 C** (check total 120)
 - **Next:** PivotTable by segment and class, and the cash effect of payment terms
 
-## M7: Mapping to SAP S/4HANA (built by me, in progress)
+## M7: Mapping to SAP S/4HANA (built by me)
 
 `excel/SAP_S4HANA_Mapping.xlsx` answers four questions for every legacy field: which S/4HANA object, which table and field, which business partner role, and which transformation rule (taken from the M1 issue list).
 
@@ -127,7 +127,19 @@ The split of the 60 issues comes from the `suggested_action` column of M1's issu
 | `ZTERM` / `payment_terms` | `LFB1-ZTERM` | FLVN00 (financial accounting) | Map text such as "2% 14 days, net 30" to a payment terms key |
 | `main_commodity` | Material group on the PO item (`EKPO-MATKL`) | Not BP data | Map commodity text to a material group key |
 
-The `SAP_Glossary` sheet explains the SAP terms used. **This is a conceptual mapping based on SAP documentation and my ERP course; no live SAP system was used.** Next: mapping the project steps (purchase orders, goods receipt, quality notifications) to SAP apps and transactions.
+The `SAP_Glossary` sheet explains the SAP terms used. The `Process_Mapping` sheet shows where each project step would happen in S/4HANA:
+
+| Project step | SAP S/4HANA | Object / table |
+|---|---|---|
+| Data-quality rules and duplicate check (M1) | SAP MDG | Business partner |
+| Load the 120 golden records | Migration Cockpit ("Migrate Your Data") | Migration object "Supplier" |
+| Purchase orders with promised date (M2) | ME21N / ME23N | EKKO, EKPO, EKET-EINDT |
+| Goods receipt: delivery date and quantity (M2) | MIGO, movement type 101 | MATDOC |
+| Rejected parts for PPM (M2) | MIGO return delivery (122) or QM inspection lot | MATDOC / QALS |
+| Quality complaints (M3) | QM01 / QM02 / QM03, notification type Q2 | QMEL |
+| Ticket tracking (M4) | No standard S/4HANA tool: MDG change request or a ticket tool | n/a |
+
+**This is a conceptual mapping based on SAP documentation and my ERP course; no live SAP system was used.**
 
 ## M3: Can we trust an AI to sort quality complaints?
 
