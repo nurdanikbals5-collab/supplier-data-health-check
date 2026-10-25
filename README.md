@@ -106,13 +106,19 @@ The split of the 60 issues comes from the `suggested_action` column of M1's issu
 
 ![AI use cases: value vs. effort](docs/ai_use_case_matrix.png)
 
-## M6: Spend analysis (built by me, in progress)
+## M6: Spend analysis (built by me)
 
 `excel/Spend_Analysis.xlsx` starts with one row per golden supplier (spend, commodity, segment, KPIs, payment term). The calculations are built by hand:
 
 - **Spend share and cumulative share** with an expanding `SUM` range, sorted by spend
 - **ABC classes** with a nested `IF` (A up to 80% of spend, B up to 95%, C the rest) and a `COUNTIF` summary: **60 A, 34 B, 26 C** (check total 120)
-- **Next:** PivotTable by segment and class, and the cash effect of payment terms
+- **Spend at risk:** a PivotTable by supplier segment shows that **64% of spend (€186m)** goes to suppliers that miss at least one KPI target; only 31% goes to strategic and reliable suppliers
+- **Payment terms:** `XLOOKUP` of net days per payment term, then:
+  - cash effect if every supplier moved to a 60-day standard term: **€18.0m** more cash on average (spend per day × extra days)
+  - cash discount potential if all "2% 14 days" discounts were taken: **€1.15m**
+  - **4 suppliers (€12.7m spend) have no payment terms**, the same gap M1 flagged as a data-quality issue
+- **Trade-off:** for the "2% 14 days" suppliers, the two levers exclude each other (pay early for the discount, or pay late for cash), so the choice has to be made per supplier
+- Spend covers 5 Jan – 16 Sep 2026 (255 days) of synthetic purchase-order data; the 60-day target is an assumption
 
 ## M7: Mapping to SAP S/4HANA (built by me)
 
