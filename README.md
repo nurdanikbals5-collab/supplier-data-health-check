@@ -147,6 +147,16 @@ The `SAP_Glossary` sheet explains the SAP terms used. The `Process_Mapping` shee
 
 **This is a conceptual mapping based on SAP documentation and my ERP course; no live SAP system was used.**
 
+## M9: Supplier decision template (built by me)
+
+`excel/Supplier_Decision_Template.xlsx` prepares a sourcing decision: which suppliers of electronic sensors get the RFQ and the main volume for a new project? It compares the 6 largest suppliers of this commodity.
+
+- **Scores 1–5 with `IFS`:** quality (PPM), delivery (on-time %), payment terms (net days, with `IF` for missing terms) and master data (open M1 issues)
+- **Weighted score** linked to the weights on the `Criteria` sheet (quality 35%, delivery 35%, terms 15%, master data 15%), so changing a weight updates the ranking; ranked with `RANK.EQ`
+- **Decision sheet:** send the RFQ to Atlasflex, Ferroparts and Primaparts; main volume to Atlasflex (4.70), Ferroparts as second source (tie with Primaparts at 4.35, chosen for better delivery and a 60-day term); fix Ferroparts' open master-data issue first
+- **Key finding:** the supplier with the highest spend (EUR 6.5m) ranks last (58.8% on time, PPM 911)
+- Unit prices are not compared because they are random in the synthetic data; thresholds and weights are my own assumptions
+
 ## M3: Can we trust an AI to sort quality complaints?
 
 1. 30 complaints were sampled (6 per category, 6 of them ambiguous). Texts include typos and German terms.
