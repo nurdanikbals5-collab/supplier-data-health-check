@@ -15,7 +15,7 @@ A portfolio project that simulates a common migration problem: two ERP systems (
 | Process (BPMN 2.0) | As-is vs. to-be: rules fix 25 of 60 issues, manual tasks in the model drop from 7 to 3 |
 | AI use cases (M5, Excel) | 8 AI ideas scored on value, data readiness, effort and risk |
 | Spend (M6, Excel) | ABC analysis: 60 A, 34 B and 26 C suppliers |
-| Dashboard (M8, Power BI) | 39 open tickets, average age 39.5 days; the "critical" segment has the most open tickets (13) |
+| Dashboard (M8, Power BI) | 39 open tickets, average age 39.5 days; DAX measures show that 70% of all tickets missed their SLA, and 80% of high-priority tickets |
 | SAP mapping (M7, Excel) | 18 legacy fields mapped to the S/4HANA business partner (LFA1, LFBK, LFB1) with transformation rules; 8 project steps mapped to SAP apps and transactions |
 
 ## Please note
@@ -36,7 +36,7 @@ A portfolio project that simulates a common migration problem: two ERP systems (
 | M5 AI use-case prioritization (Excel) | 8 AI ideas for the migration scored and ranked; value-vs-effort matrix | Done |
 | M6 Spend analysis (Excel) | Spend shares, ABC classes, payment terms | Done |
 | M7 SAP S/4HANA mapping (Excel) | Legacy fields and project steps mapped to S/4HANA objects, tables and rules | Done (conceptual) |
-| M8 Ticket dashboard (Power BI) | Open-ticket KPIs, tickets by segment and a priority slicer | Done |
+| M8 Ticket dashboard (Power BI) | Two report pages: open backlog and SLA performance with DAX measures | Done |
 | M9 Supplier decision template (Excel) | Weighted scoring of 6 sensor suppliers for a sourcing decision | Done |
 
 ## M1: Data quality and golden records
@@ -152,7 +152,9 @@ The `SAP_Glossary` sheet explains the SAP terms used. The `Process_Mapping` shee
 
 ## M8: Power BI ticket dashboard (built by me)
 
-The open tickets from M4 in a Power BI report (Power BI service, web). Data: `excel/powerbi/Tickets_PowerBI.xlsx`, a snapshot of the 60 tickets on 25 Oct 2026.
+The tickets from M4 in a Power BI report with two pages (Power BI service, web). Data: `excel/powerbi/Tickets_PowerBI.xlsx`, a snapshot of the 60 tickets on 25 Oct 2026.
+
+**Page 1: Open backlog**
 
 - **Page filter** `Open = Yes`, so every visual shows open tickets only
 - **Cards:** 39 open tickets; average ticket age 39.5 days
@@ -161,6 +163,20 @@ The open tickets from M4 in a Power BI report (Power BI service, web). Data: `ex
 - The numbers match a check in Python on the same file
 
 ![Power BI ticket dashboard](docs/powerbi_ticket_dashboard.png)
+
+**Page 2: SLA performance (DAX measures, written by me)**
+
+```
+Open tickets     = CALCULATE(COUNTROWS(Tickets), Tickets[Open] = "Yes")
+Breached tickets = CALCULATE(COUNTROWS(Tickets), Tickets[SLA Status] = "Breached")
+SLA breach rate  = DIVIDE([Breached tickets], COUNTROWS(Tickets))
+```
+
+- This page has no filter, so the measures work on all 60 tickets: **42 breached, SLA breach rate 70%**
+- A table by priority uses the same measures for each row: **High 80%**, Low 64%, Medium 62%. The tickets with the shortest SLA (5 days) miss it most often.
+- Every value matches a check in Python on the same file
+
+![Power BI SLA page](docs/powerbi_sla_page.png)
 
 ## M9: Supplier decision template (built by me)
 
