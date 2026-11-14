@@ -78,7 +78,7 @@ Created dates, status and owners are simulated.
 
 ## Process analysis: as-is vs. to-be (BPMN 2.0, drawn by me)
 
-I modelled how supplier data errors are corrected today (as-is) and how the process works with the rules from M1 and the ticket tracker from M4 (to-be). Both models are in `docs/` as `.bpmn` (open them at bpmn.io) and `.svg`.
+I modelled how supplier data errors are corrected today (as-is) and how the process works with the rules from M1 and the ticket tracker from M4 (to-be). Both models are in `docs/` as `.bpmn` (open them at bpmn.io) and `.svg`. The modeling rules (naming, lanes, elements, review and release) are in [`docs/bpmn_modeling_guide.md`](docs/bpmn_modeling_guide.md). I reviewed both models against them and renamed one task in the to-be model (v1.1).
 
 | | As-is | To-be |
 |---|---|---|
